@@ -775,6 +775,10 @@ video {
   margin-top: 6rem;
 }
 
+.mt-28{
+  margin-top: 7rem;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -2153,6 +2157,14 @@ video {
   background-image: url('/dist/images/school-banner.png');
 }
 
+.bg-\[url\(\'\/images\/school-banner\.png\'\)\]{
+  background-image: url('/images/school-banner.png');
+}
+
+.bg-\[url\(\'\.\/images\/school-banner\.png\'\)\]{
+  background-image: url('./images/school-banner.png');
+}
+
 .decoration-slice{
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2545,6 +2557,10 @@ video {
 
 .font-light{
   font-weight: 300;
+}
+
+.font-extralight{
+  font-weight: 200;
 }
 
 .uppercase{
