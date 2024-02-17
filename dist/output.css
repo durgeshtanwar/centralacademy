@@ -793,6 +793,10 @@ video {
   margin-top: 2rem;
 }
 
+.mt-3{
+  margin-top: 0.75rem;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -1010,6 +1014,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-2\/4{
+  width: 50%;
 }
 
 .flex-shrink{
@@ -2426,6 +2434,10 @@ video {
   font-weight: 600;
 }
 
+.font-extralight{
+  font-weight: 200;
+}
+
 .uppercase{
   text-transform: uppercase;
 }
@@ -3128,6 +3140,11 @@ video {
   .md\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
   .md\:leading-\[64px\]{
