@@ -1048,6 +1048,18 @@ video {
   width: 0px;
 }
 
+.w-\[500px\]{
+  width: 500px;
+}
+
+.w-\[600px\]{
+  width: 600px;
+}
+
+.w-\[900px\]{
+  width: 900px;
+}
+
 .flex-shrink{
   flex-shrink: 1;
 }
@@ -2539,6 +2551,11 @@ video {
   line-height: 1;
 }
 
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -2557,6 +2574,10 @@ video {
 
 .font-extralight{
   font-weight: 200;
+}
+
+.font-normal{
+  font-weight: 400;
 }
 
 .uppercase{
@@ -2884,6 +2905,12 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-md{
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .outline-none{
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -3206,6 +3233,10 @@ video {
 
   .md\:justify-around{
     justify-content: space-around;
+  }
+
+  .md\:justify-evenly{
+    justify-content: space-evenly;
   }
 
   .md\:gap-10{
