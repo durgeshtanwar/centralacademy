@@ -46,7 +46,22 @@
                        <a href="#">Galleries</a>
                        <a href="#">Enquires</a>
                     </nav>
-                    <i class="fa-solid fa-bars md:hidden text-white text-xl mr-5"></i>
+                    <i class="fa-solid fa-bars md:hidden text-white text-xl mr-5" id="mobile-menu"></i>
+                 </div>
+                 <div class="md:hidden w-full top-28 flex absolute justify-end" id="show-menu">
+                    <div class="md:hidden top-0 w-2/3 flex flex-col gap-3 px-3 py-3 bg-white rounded mr-3">
+                       <a href="#" class="font-montserrat text-sm dropdown-button">About Us <i class="fa-solid fa-caret-right"></i></a>
+                       <div class="flex flex-col px-4 text-sm font-montserrat" id="dropdown">
+                          <a href="#" class="font-light  text-primary">Our alumani</a>
+                               <a href="#" class="font-light  text-primary">About Us</a>
+                               <a href="#" class="font-light  text-primary">Contact Us</a>
+                       </div>
+                       <a href="#" class="font-montserrat text-sm">Academics</a>
+                       <a href="#" class="font-montserrat text-sm">Beyond Academics</a>
+                       <a href="#" class="font-montserrat text-sm">News</a>
+                       <a href="#" class="font-montserrat text-sm">Galleries</a>
+                       <a href="#" class="font-montserrat text-sm">Enquires</a>
+                    </div>
                  </div>
                 <div class="py-24 pb-60 w-full flex justify-center font-bold font-montserrat text-6xl items-center text-white">
                     Our Calendar
@@ -202,5 +217,6 @@
            © Central Academy, Bikaner. 2010 All Rights Reserved.
         </div>
      </div>
+     <script src="./script.js"></script>
   </body>
 </html>
